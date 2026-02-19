@@ -26,7 +26,7 @@ function groupByCategory(entries: VerseEntry[]) {
 const groups = groupByCategory(verses);
 
 const GITHUB_URL =
-  process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com";
+  process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/henrynkoh/kjv-rd-pray";
 
 export default function Home() {
   return (
